@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --Port-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*All of portfolio font*/
+    --head-back: steelblue; /*All Header in body's background*/
+    --text-color: white;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: slategray;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--Port-font);
+}
+
+h1{
+    font-size: 30px;
+    font-style: italic;
+    background-color: var(--head-back);
+    padding: 10px;
+    margin-left: 0;
+    color: var(--text-color)
+}
+
+nav{
+   font-size: 15px;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+} /*How can I fix the direction of the Nav list to be column?*/
+
+a{
+    color: var(--text-color); /*Change color towards the end*/
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+/*We can try out to do div instead of a class to make all sections within main to follow same format*/
+
+/*Could also maybe add aside for h2 titles??*/
+
+/*Make sure to add @media screen to correspond to different sizes*/
